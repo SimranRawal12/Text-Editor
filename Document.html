@@ -7,7 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello we are starting</h1>
-    <script src="script.js"></script>
+    <div class="TextArea">
+        <div class="page" id="page-1">
+            <textarea class="text-editor" placeholder="Write your text here..."  rows="30" oninput="limitLines(this)"></textarea>
+        </div>
+        <div class="add-page-btn" onclick="addPage()">+</div>
+    </div>
+    <script src="Document.js"></script>
 </body>
 </html>
